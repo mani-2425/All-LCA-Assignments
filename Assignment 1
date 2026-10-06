@@ -1,1 +1,34 @@
+#1. List Operations
 
+my_list = [10, 20, 30, 40]
+print("Original List:", my_list)
+my_list.append(50)
+my_list.insert(1, 15)
+my_list.remove(30)
+my_list.pop()
+my_list.sort()
+print("List after operations:", my_list)
+
+#2. Tuple Operations
+
+my_tuple = (10, 20, 30, 20, 40)
+print("\nOriginal Tuple:", my_tuple)
+print("Indexing [2]:", my_tuple[2])
+print("Slicing [1:4]:", my_tuple [1:4])
+print("Count of 20:", my_tuple.count(20))
+print("Index of 30:", my_tuple.index(30))
+new_tuple = my_tuple + (50, 60)
+print("After concatenation:", new_tuple)
+
+#3. Dictionary Operations
+
+student = {"name": "Rahul", "age": 18, "course": "CSE"}
+print("\nOriginal Dictionary:", student)
+student["city"] = "Pune"
+student.update({"age": 19})
+print("After adding and updating:", student)
+print("Keys:", student.keys())
+print("Values:", student.values()) 
+print("Items:", student.items())
+student.pop("city")
+print("After removing city:", student)
