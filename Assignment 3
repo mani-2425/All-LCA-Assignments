@@ -1,1 +1,13 @@
+# Function to check if triangle is right-angled
 
+def check_right_angled_triangle(a, b, c):
+    if a*a + b*b == c*c or a*a + c*c == b*b or b*b + c*c == a*a:
+        return "Right-angled triangle"
+    else:
+        return "Not a right-angled triangle"
+        
+side1 = float(input("Enter side 1: "))
+side2 = float(input("Enter side 2: "))
+side3 = float(input("Enter side 3: "))
+result = check_right_angled_triangle (side1, side2, side3)
+print(f"The triangle is {result}.")
