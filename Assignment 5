@@ -1,1 +1,8 @@
+# Import regular expression module
 
+import re
+s = input("Enter a string :")
+if re.match("[a-zA-Z0-9]+",s) is not None: 
+    print("String contains only letters and numbers.")
+else:
+    print("String contains invalid characters:")
