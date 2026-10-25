@@ -1,4 +1,4 @@
-Problem Statement : Check whether or not the triangle is a right-angled triangle using function.# Function to check if triangle is right-angled.
+𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 : 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐨𝐫 𝐧𝐨𝐭 𝐭𝐡𝐞 𝐭𝐫𝐢𝐚𝐧𝐠𝐥𝐞 𝐢𝐬 𝐚 𝐫𝐢𝐠𝐡𝐭-𝐚𝐧𝐠𝐥𝐞𝐝 𝐭𝐫𝐢𝐚𝐧𝐠𝐥𝐞 𝐮𝐬𝐢𝐧𝐠 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧.# 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐭𝐨 𝐜𝐡𝐞𝐜𝐤 𝐢𝐟 𝐭𝐫𝐢𝐚𝐧𝐠𝐥𝐞 𝐢𝐬 𝐫𝐢𝐠𝐡𝐭-𝐚𝐧𝐠𝐥𝐞𝐝.
 
 def check_right_angled_triangle(a, b, c):
     if a*a + b*b == c*c or a*a + c*c == b*b or b*b + c*c == a*a:
