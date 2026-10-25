@@ -1,3 +1,5 @@
+Problem Statement : Write a Python program to create an array and perform addition of two matrices (Using list and NumPy array)
+
 # Matrix addition using list
 
 matrix1 = [[1,2],
