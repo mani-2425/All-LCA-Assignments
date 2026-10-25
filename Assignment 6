@@ -1,1 +1,56 @@
+Problem Statement : Write a python program to perform data preprocessing on .csv/.xls file.
 
+import pandas as pd
+
+# Create sample dataset
+data = {
+    "Name": ["Amit", "Bhavna", "Chetan", "Diya", "Amit", None],
+    "Marks": [75, 82, None, 90, 75, 68],
+    "City": ["Pune", "Mumbai", "Pune", "Nashik", "Pune", None]
+}
+
+df = pd.DataFrame(data)
+
+# Save dataset to CSV
+df.to_csv("student_data.csv", index=False)
+
+# Load CSV file
+df = pd.read_csv("student_data.csv")
+
+print("Original Dataset:")
+print(df)
+
+# Display dataset information
+print("\nDataset Information:")
+df.info()
+
+# Display statistical summary
+print("\nStatistical Summary:")
+print(df.describe())
+
+# Handle missing values
+df["Name"] = df["Name"].fillna("Unknown")
+df["Marks"] = df["Marks"].fillna(df["Marks"].mean())
+df["City"] = df["City"].fillna("Unknown")
+
+print("\nDataset After Handling Missing Values:")
+print(df)
+
+# Remove duplicate records
+df = df.drop_duplicates()
+
+print("\nDataset After Removing Duplicates:")
+print(df)
+
+# Select data using loc[]
+print("\nSelected Data:")
+print(df.loc[:, ["Name", "Marks"]])
+
+# Filter students with marks greater than 75
+print("\nStudents Scoring More Than 75:")
+print(df.loc[df["Marks"] > 75])
+
+# Save cleaned dataset
+df.to_csv("cleaned_student_data.csv", index=False)
+
+print("\nCleaned dataset saved successfully!")
