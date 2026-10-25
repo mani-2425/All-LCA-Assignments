@@ -1,4 +1,4 @@
-Problem Statement : Load the dataset and plot the data using line, bar, scatter plots, and heatmap with Seaborn and Matplotlib libraries.
+𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 : 𝐋𝐨𝐚𝐝 𝐭𝐡𝐞 𝐝𝐚𝐭𝐚𝐬𝐞𝐭 𝐚𝐧𝐝 𝐩𝐥𝐨𝐭 𝐭𝐡𝐞 𝐝𝐚𝐭𝐚 𝐮𝐬𝐢𝐧𝐠 𝐥𝐢𝐧𝐞, 𝐛𝐚𝐫, 𝐬𝐜𝐚𝐭𝐭𝐞𝐫 𝐩𝐥𝐨𝐭𝐬, 𝐚𝐧𝐝 𝐡𝐞𝐚𝐭𝐦𝐚𝐩 𝐰𝐢𝐭𝐡 𝐒𝐞𝐚𝐛𝐨𝐫𝐧 𝐚𝐧𝐝 𝐌𝐚𝐭𝐩𝐥𝐨𝐭𝐥𝐢𝐛 𝐥𝐢𝐛𝐫𝐚𝐫𝐢𝐞𝐬.
 
 %pip install  seaborn
 
